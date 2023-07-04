@@ -9,6 +9,7 @@ class CreateUsers < ActiveRecord::Migration[6.0]
         t.string :password
         t.string :phone
         t.string :state
+        t.string :inn
   
         t.timestamps
       end
