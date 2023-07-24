@@ -11,6 +11,9 @@ class CreateUsers < ActiveRecord::Migration[6.0]
         t.string :state
         t.string :inn
         t.string :snils
+        t.string :address
+
+
 
   
         t.timestamps
